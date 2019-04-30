@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'font1';
+    src: url(GreatVibes-Regular.ttf);
+}
 #logo{
 	display: block;
 	width: 20em;
@@ -7,23 +11,52 @@
 
 
 .row{
-	margin-top: 2%;
+	margin-top: 1%;
 }
 
+a{
+	font-family: 'font1', sans-serif;
+	color: #252525;
+	font-size: 3em;
+}
 
-.col{
-	
-	background-image: url("../img/massage.jpg");
+a:hover {
+	color: #252525;
+}
+
+#massage{
+	background-image: url("../img/massage.jpg") !important;
+}
+
+#galerie{
+	background-image: url("../img/ongles2.jpg");
+}
+
+#mariage{
+	background-image: url("../img/mariage.jpg");
+}
+
+.col{	
+	background-image: url("../img/ongles4.jpg");
+	font-family: 'font1', sans-serif;
+	font-size: 3em;
 	background-size: cover;
 	background-position: center;
-	height: 16em;
+	height: 4em;
 	text-align: center;
-	line-height: 16em;
+	line-height: 4em;
 	margin-left: 5px;
 	margin-right: 5px;
-	padding-left: 10%;
+	transition: 0.5s;
+}
+
+.col:hover{
+	transform: scale(1.04);	
+	z-index: 3;
 }
 
 .cont{
-	width: 100%;
+	width: 98%;
+	margin-left: 1%;
+	margin-right: 15px;
 }
