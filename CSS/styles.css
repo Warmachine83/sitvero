@@ -1,5 +1,29 @@
 #logo{
-	width: 30%;
-	height: 15%;
+	display: block;
+	width: 20em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+
+.row{
+	margin-top: 2%;
+}
+
+
+.col{
+	
+	background-image: url("../img/massage.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 16em;
+	text-align: center;
+	line-height: 16em;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 10%;
+}
+
+.cont{
+	width: 100%;
+}
